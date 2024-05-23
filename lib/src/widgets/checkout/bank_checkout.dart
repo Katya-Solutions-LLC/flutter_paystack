@@ -131,9 +131,8 @@ class _BankCheckoutState extends BaseCheckoutMethodState<BankCheckout> {
               _currentBank == null
                   ? 'Choose your bank to start the payment'
                   : 'Enter your acccount number',
-              style: const TextStyle(
-                  fontWeight: FontWeight.w500,
-                  fontSize: 14.0),
+              style:
+                  const TextStyle(fontWeight: FontWeight.w500, fontSize: 14.0),
             ),
             new SizedBox(
               height: 20.0,
